@@ -1,0 +1,20 @@
+###Get all contents
+GET http://localhost:8080/api/content
+
+###Get Content by ID
+GET http://localhost:8080/api/content/{{id}}
+
+###Save a new content
+POST http://localhost:8080/api/content
+Content-Type: application/json
+
+{
+    "id": 2,
+    "title": "My Second Project",
+    "desc": "I'm Advancing in SpringBoot",
+    "status": "IN_PROGRESS",
+    "contentType": "COURSE",
+    "dateCreated": "2024-02-17T23:51:12.9452398",
+    "dateUpdated": null,
+    "url": ""
+  }
